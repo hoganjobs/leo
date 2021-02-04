@@ -27,11 +27,6 @@ http.createServer(function (req, res) {
 handler.on('error', function (err) {
     console.error('Error:', err.message)
 })
-
-handler.on('*', function (event) {
-    console.log('Received *', event);
-    //   run_cmd('sh', ['./deploy-dev.sh'], function(text){ console.log(text) });
-})
  
 handler.on('push', function (event) {
     console.log('Received a push event for %s to %s',
