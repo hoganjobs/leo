@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Home msg="Welcome to Hoganjbos Page"/>
+    <Home msg="Welcome to Hoganjbos Page Now"/>
   </div>
 </template>
 
