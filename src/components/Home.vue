@@ -2,6 +2,7 @@
   <div class="home">
     <img class="img" alt="logo" src="../assets/logo.jpg" />
     <h1>{{ msg }}</h1>
+    <p>Year of the Ox</p>
     <h5>MIT Licensed | Copyright © 2021-present hoganjobs</h5>
   </div>
 </template>
