@@ -11,7 +11,19 @@ defineProps<IProps>()
     <img class="img" alt="logo" src="../assets/logo.jpg" />
     <h1>Welcome to Hoganjobs Page</h1>
     <p>Year of the Rabbit</p>
-    <h5>MIT Licensed | Copyright © 2020-present hoganjobs</h5>
-    <h5><a class="beian" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备20054772号</a></h5>
+    <p>MIT Licensed | Copyright © 2022-present hoganjobs</p>
+    <p><a class="beian" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备20054772号</a></p>
   </div>
 </template>
+
+<style scoped>
+img {
+  border-radius: 50%;
+}
+.beian {
+  text-decoration: none;
+  font-size: 12px;
+  color: #2c3e50;
+}
+
+</style>
